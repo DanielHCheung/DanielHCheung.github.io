@@ -62,7 +62,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hengrui-tech
+disqus_username: danieldata
 
 # Netease settings
 netease_comment: false
