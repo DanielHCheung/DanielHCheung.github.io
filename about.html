@@ -22,6 +22,25 @@ multilingual: true
     {{ about_zh | markdownify }}
 </div>
 
+<!-- Cantonese Version -->
+<div class="yue post-container">
+    {% capture about_yue %}{% include about/yue.md %}{% endcapture %}
+    {{ about_yue | markdownify }}
+</div>
+
+
+<!-- Japanese Version -->
+<div class="ja post-container">
+    {% capture about_ja %}{% include about/ja.md %}{% endcapture %}
+    {{ about_ja | markdownify }}
+</div>
+
+<!-- Deutsch Version -->
+<div class="yue post-container">
+    {% capture about_de %}{% include about/de.md %}{% endcapture %}
+    {{ about_de | markdownify }}
+</div>
+
 
 {% if site.disqus_username %}
 <!-- disqus 评论框 start -->
