@@ -45,11 +45,9 @@ He wishes to take Airbus A350 one day, with cutting-edge technology like Boeing 
 
 Airlines he would like to take in the future: (higher priority, and not taken before)
 
-Oneworld: AA, BA; CX, QR; 
-
-Star Alliance: LH, NH, NZ, SQ, TK;
-
-Skyteam: KE;
-
-Others: EK;
+|-----|----|
+|Oneworld|AA, BA, CX, QR|
+|Star Alliance| LH, NH, NZ, SQ, TK|
+|Skyteam| KE|
+|Others| EK|
 
