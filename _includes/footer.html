@@ -241,9 +241,15 @@
     // handle select change
     function onLanChange(index) {
         if (index == 0) {
-            lang = "zh"
-        } else {
             lang = "en"
+        } else if (index == 1){
+            lang = "zh"
+        } else if (index == 2){
+            lang = "yue"
+        } else if (index == 3){
+            lang = "ja"
+        } else {
+            lang = "de"
         }
         setLang(lang)
     }
