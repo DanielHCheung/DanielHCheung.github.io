@@ -21,20 +21,11 @@ description: "「 Welcome to Daniel Data - <a href="https://DanielData.com">Dani
                 {{ post.content | strip_html | truncate:200 }}
             {% endif %} -->
 
-            {% case post.lang %}
-                {% when 'en' %}
-                    {{ post.content | strip_html | truncate:300 }}
-                {% when 'zh' %}
-                    {{ post.content | strip_html | truncate:200 }}
-                {% when 'ja' %}
-                    {{ post.content | strip_html | truncate:180 }}
-                {% when 'de' %}
-                    {{ post.content | strip_html | truncate:280 }}
-                {% when 'yue' %}
-                    {{ post.content | strip_html | truncate:200 }}
-                {% else %}
-                    {{ post.content | strip_html | truncate:250 }}
-            {% endcase %}
+            {% if post.lang == 'en' or post.lang == 'de' %}
+                {{ post.content | strip_html | truncate:300 }}
+            {% else %}
+                {{ post.content | strip_html | truncate:300 }}
+             {% endif %} 
         </div>
     </a>
     <p class="post-meta">
