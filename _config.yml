@@ -8,6 +8,8 @@ keyword: "Daniel Cheung's Blog - Data Science"
 url: "https://danieldata.com" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
+languages: ["en", "zh", "yue", "ja", "de"]
+
 # Publish posts or collection documents with a future date.
 future: true
 
@@ -43,6 +45,7 @@ anchorjs: true # if you want to customize anchor. check out line:181 of `post.ht
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
+# plugins: [jekyll-paginate, jekyll-multiple-languages-plugin]
 
 # Markdown settings
 # replace redcarpet to kramdown,
