@@ -17,19 +17,25 @@ Okay, let's turn back to the permutations.
 **Statement** (for $n \geq 1$):
 
 $$
+
 \sum_{k=0}^{n} (-1)^k \binom{n}{k} = 0
+
 $$
 
 **Proof**: By the Binomial Theorem,
 
 $$
+
 (1 + x)^n = \sum_{k=0}^{n} \binom{n}{k} x^k
+
 $$
 
 Let $x = -1$:
 
 $$
+
 (1 - 1)^n = 0^n = \sum_{k=0}^{n} \binom{n}{k} (-1)^k
+
 $$
 
 For $n \geq 1$, the left-hand side is $0$. Hence the formula holds.
@@ -39,9 +45,7 @@ For $n \geq 1$, the left-hand side is $0$. Hence the formula holds.
 ## Formula 2
 **Statement** (for $ n\geq 0$):
 
-$$
-\sum_{k=0}^{n} k \binom{n}{k} = n \cdot 2^{\,n-1}
-$$
+$$ \sum_{k=0}^{n} k \binom{n}{k} = n \cdot 2^{\,n-1} $$
 
 **Proof**: Starting from the Binomial Theorem,
 
