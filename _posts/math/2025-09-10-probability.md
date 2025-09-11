@@ -40,7 +40,6 @@ $$
 
 For $n \geq 1$, the left-hand side is $0$. Hence the formula holds.
 
----
 
 ## Formula 2
 **Statement** (for $ n\geq 0$):
@@ -82,7 +81,6 @@ $$
 
 Then let $x=y=1$, that also make sense.
 
----
 
 ## Formula 3
 **Statement** (for $n \geq$ 2):
