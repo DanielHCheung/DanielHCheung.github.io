@@ -6,7 +6,7 @@ This page is mostly written in English. If there is any slight contradiction wit
 
 This page is not written but checked by AI to ensure all sentences convey the intended meaning correctly.
 
-E-mail me at: danielzhang2021@outlook.com
+E-mail me at: danielzhang2021 [at] outlook [dot] com
 
 
 ## Simple Introduction
