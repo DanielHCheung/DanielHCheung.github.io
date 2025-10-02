@@ -2,8 +2,8 @@
 layout: post
 title:  "DS Note: Trie / Prefix Tree"
 date:  2025-10-02 10:00:00 -4
-categories: DataStructure tree "Prefix Tree" string python
-tags: DataStructure tree "Prefix Tree" string python
+categories: DataStructure tree PrefixTree string python
+tags: DataStructure tree PrefixTree string python
 excerpt: A Data Structure like search tree, that can used to save and search string.
 mathjax: true
 ---
