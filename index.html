@@ -24,7 +24,7 @@ description: "「 Welcome to Daniel Data 」"
             {% if post.lang == 'en' or post.lang == 'de' %}
                 {{ post.content | strip_html | truncate:300 }}
             {% else %}
-                {{ post.content | strip_html | truncate:300 }}
+                {{ post.content | strip_html | truncate:200 }}
              {% endif %} 
         </div>
     </a>

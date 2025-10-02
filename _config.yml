@@ -38,7 +38,7 @@ exclude:
   ]
 anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
+# timezone: NY
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -99,5 +99,6 @@ friends:
     { title: "Amy&Daniel", href: "https://amysang.com/" },
     { title: "震惊部", href: "https://blog.onbed.cn/" },
     { title: "Hengrui Tech", href: "https://hengrui.tech/" },
-    { title: "交换友链", href: "/about" }
+    # { title: "交换友链", href: "/about" }
+    { title: "CV", href: "/cv" }
   ]
