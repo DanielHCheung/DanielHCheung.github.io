@@ -4,7 +4,7 @@ Informal, but the same content with formal version, which is on a letter size pa
 
 **Phone:** (516) DAY - RDNA  
 **Email:** [danielhcheung@outlook.com](mailto:danielhcheung@outlook.com)  
-**Website:** [danieldata.com](https://danieldata.com)
+**Website:** [danieldata.com](https://danieldata.com)  
 **LinkedIn:** [linkedin.com/in/daniel-zhang-2021data](https://www.linkedin.com/in/daniel-zhang-2021data)
 
 ## Summary
