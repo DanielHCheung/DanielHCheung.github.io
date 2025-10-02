@@ -24,6 +24,7 @@ Define a trie node like a search tree node, however, it's not enough if you only
 
 By the way, we don't need to storage the letter at the node, it's already saved at its parents for navigation purposes. So we need to define that children's letter here.
 
+```
 class TrieNode:
     def __init__(self):
         self.childs = {}
