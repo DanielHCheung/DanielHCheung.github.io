@@ -1,10 +1,10 @@
-Daniel Cheung (this is not a legal name, it's a preferfed name)
+**Daniel Cheung** (this is not a legal name, it's a preferfed name)
 
 Informal, but the same content with formal version, which is on a letter size paper pdf or printed one.
 
-**Phone:** (516) DAY - RDNA
+**Phone:** (516) DAY - RDNA  
 **Email:** [danielhcheung@outlook.com](mailto:danielhcheung@outlook.com)  
-**Website:** [danieldata.com](https://danieldata.com)  
+**Website:** [danieldata.com](https://danieldata.com)
 **LinkedIn:** [linkedin.com/in/daniel-zhang-2021data](https://www.linkedin.com/in/daniel-zhang-2021data)
 
 ## Summary
