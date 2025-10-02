@@ -6,19 +6,13 @@
 **Website:** [danieldata.com](https://danieldata.com)  
 **LinkedIn:** [linkedin.com/in/daniel-zhang-2021data](https://www.linkedin.com/in/daniel-zhang-2021data)
 
----
-
 ## Summary
 Master’s student in Data Science at Stony Brook University with a strong foundation in statistics and programming. Skilled in Python, R, and SQL with hands-on experience in Flask, FastAPI, and cloud deployment. Proven track record of optimizing code performance, developing machine learning models, and building microservices. Ranked top 3 in undergraduate cohort; award-winning experience in statistical competitions.
-
----
 
 ## Skills
 - **Programming:** Python, R, MATLAB, SQL (MySQL), C++, Java, SAS, SPSS  
 - **Frameworks / Tools:** Flask, FastAPI, pandas, Docker, Azure, Linux  
 - **Core Expertise:** Data Processing, Statistical Modeling, Machine Learning, Data Visualization, Microservices  
-
----
 
 ## Education
 
@@ -35,8 +29,6 @@ Sep 2020 – Jul 2024
 - Conducted survey-based projects with regression & clustering methods for service analysis  
 - Co-founded Computer Repair & Tech Club: deployed Docker services (even on ARM routers with OpenWRT), led workshops on system troubleshooting, and developed an internal Python (Flask)-based printing system  
 
----
-
 ## Experience
 
 **Python Developer Intern – Hangzhou Mihe Electronic Devices**  
@@ -44,8 +36,6 @@ Mar 2024 – May 2024
 - Refactored socket-based microservices into Flask for modularity and maintainability  
 - Optimized computational pipelines using pandas, cutting runtime by 20%  
 - Developed web scraping and file-downloading scripts, resolving recurring server downtime issues  
-
----
 
 ## Projects
 
@@ -60,8 +50,6 @@ Mar 2024 – May 2024
 **Financial Modeling Research**  
 - Experimented with sentiment analysis of investor comments for predictive features  
 - Graduation thesis on volatility modeling with high-frequency trading data (5-minute intervals) using Lasso regression  
-
----
 
 ## Awards
 - Third Prize – Provincial Statistical Survey Competition (Nov 2022)  
