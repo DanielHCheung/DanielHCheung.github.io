@@ -3,4 +3,9 @@ title: CV
 layout: default
 ---
 
-{% include cv.html type='page' %}
+<!-- English Version -->
+<div class="en post-container">
+    {% capture cv_en %}{% include cv/en.md %}{% endcapture %}
+    {{ cv_en | markdownify }}
+</div>
+
