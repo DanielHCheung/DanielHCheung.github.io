@@ -2,8 +2,8 @@
 layout: post
 title:  "Some Python Phrase you should never write"
 date:  2025-10-01 19:00:00 -4
-categories: Python 
-tags: 
+categories: python 
+tags: python
 excerpt: this may generate security issue
 mathjax: true
 ---
