@@ -1,6 +1,7 @@
-# Daniel Cheung (Hengrui Zhang, legal)
+Daniel Cheung (this is not a legal name, it's a preferfed name)
 
-**Address:** 350 Circle Rd, Stony Brook, NY 11790  
+Informal, but the same content with formal version, which is on a letter size paper pdf or printed one.
+
 **Phone:** (516) DAY - RDNA
 **Email:** [danielhcheung@outlook.com](mailto:danielhcheung@outlook.com)  
 **Website:** [danieldata.com](https://danieldata.com)  
