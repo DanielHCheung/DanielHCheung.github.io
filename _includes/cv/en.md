@@ -40,15 +40,15 @@ Mar 2024 – May 2024
 
 ## Projects
 
-**Elderly Care Survey Analysis**  
+**STAT: Elderly Care Survey Analysis**  
 - Applied logistic regression and clustering to identify service satisfaction drivers  
 - Provided actionable insights to improve elderly care programs  
 
-**Flask-Based Programs**  
+**Python: Flask-Based Programs**  
 - Designed and deployed a web print solution for campus use, running on microservers and Azure VMs  
 - Built e-flight log and local financial quote proxy (cached hub), some connected with tg-bot for user interface  
 
-**Financial Modeling Research**  
+**FIN: Financial Modeling Research**  
 - Experimented with sentiment analysis of investor comments for predictive features  
 - Graduation thesis on volatility modeling with high-frequency trading data (5-minute intervals) using Lasso regression  
 
