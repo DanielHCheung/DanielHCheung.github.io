@@ -26,6 +26,7 @@ Statistical programming is also the skill he mastered, proficient in MATLAB, fol
 
 Database Skills: SQL Syntax; SQLite; MySQL. He also plans to learn Postgresql and hasn't start yet.
 
+![LeetCode Stats](https://leetcard.jacoblin.cool/DanielHCheung?theme=light&font=Esteban&ext=heatmap)
 
 ## My Special Interest
 
