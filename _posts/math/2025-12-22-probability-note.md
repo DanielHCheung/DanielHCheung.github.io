@@ -39,7 +39,7 @@ Linearity: $E[aX+b] = aE[X]+b$, \quad $Var(aX+b) = a^2 Var(X)$.
 > E[X] = \int_0^{\infty} {P(X>x)} dx
 > $$
 
-## Uniform Distribution: $X \sim Unif(a, b)$
+## Uniform Distribution: X ~ Unif(a, b)
 
 Definition:
 $$
@@ -58,7 +58,7 @@ $$
 E[X] = \frac{a+b}{2}, \qquad Var(X) = \frac{(b-a)^2}{12}
 $$
 
-## Normal Distribution: $X \sim N(\mu, \sigma^2)$
+## Normal Distribution: X ~ N(mu, sigma^2)
 
 Definition:
 $$
@@ -74,7 +74,7 @@ $$
 2. **Probability:** $P(a \le X \le b) = P\left(\frac{a-\mu}{\sigma} \le Z \le \frac{b-\mu}{\sigma}\right) = \Phi(z_b) - \Phi(z_a)$.
 3. **Linear Combination:** If $X \sim N(\mu, \sigma^2)$, then $Y = aX+b \sim N(a\mu+b, a^2\sigma^2)$.
 
-## Exponential Distribution: $X \sim Exp(\lambda)$
+## Exponential Distribution: X ~ Exp(lambda)
 
 Definition ($\lambda > 0$):
 $$
@@ -98,7 +98,7 @@ $$
 # Continuous Distributions 2
 *All PDF in this section is not required to remember. You just need to understand and know the relationship between them.*
 
-## Gamma($\alpha,\lambda$)
+## Gamma(alpha, lambda)
 
 **Gamma Function:**
 $$
@@ -123,7 +123,7 @@ $$
 **Properties:**
 1. Additive: $X_i \sim \Gamma(\alpha_i, \lambda) \implies \sum X_i \sim \Gamma(\sum \alpha_i, \lambda)$
 
-## Beta($\alpha,\beta$)
+## Beta(alpha, beta)
 
 **Beta Function:**
 $$
@@ -131,7 +131,7 @@ Beta(\alpha, \beta) = \int_0^1{t^{\alpha-1} (1-t)^{\beta-1}}dt
 $$
 1. $Beta(\alpha,\beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha+\beta)}$
 2. $Beta(\alpha,\beta) = Beta(\beta,\alpha)$ (Symmetry applies to Beta Function, not Beta Distribution)
-3. $\int_0^{\frac{\pi}{2}}{2\sin^{2\alpha-1}\cos^{2\beta-1}}dt = {Beta(\alpha,\beta)}$
+3. $\int_0^{\frac{\pi}{2}}{2\sin^{2\alpha-1}(t)\cos^{2\beta-1}(t)}dt = {Beta(\alpha,\beta)}$
 
 Definition:
 $$
@@ -148,7 +148,7 @@ $$
 3. $X_1 \sim \Gamma(\alpha_1,\lambda), X_2 \sim \Gamma(\alpha_2,\lambda)\implies \frac{X_1}{X_1+X_2}\sim Beta(\alpha_1,\alpha_2)$
 4. iid series $X_i \sim \Gamma(\alpha_i,\lambda) \implies \frac{\sum_{k=1}^{i}X_k}{\sum_{k=1}^{i+1}X_k}\sim Beta(\sum_{k=1}^{i}\alpha_k,\alpha_{i+1})$ and $\sum_{k=1}^{n}X_k \sim \Gamma(\sum_{i=1}^{n} \alpha_i,\lambda)$ independent.
 
-## Chi-squared $\chi^2(\nu)$
+## Chi-squared (nu)
 
 Definition:
 $$
@@ -163,7 +163,7 @@ $$
 \chi^2_\nu \equiv \text{Gamma}\!\left(\tfrac{\nu}{2},\,\tfrac{1}{2}\right)
 $$
 
-## Student-$t(\nu)$
+## Student-t(nu)
 
 Definition via normal and chi–square:
 $$
@@ -174,7 +174,7 @@ f_{t_\nu} (x) = \frac{\Gamma(\frac{\nu+1}{2})}{\sqrt{\pi\nu}\Gamma(\frac{\nu}{2}
 $$
 Property: Symmetric, heavy tails; as $\nu\to\infty$, $t_\nu\to N(0,1)$. Note that $t_\nu$ has at most $\nu-1$ order moments.
 
-## Cauchy($\theta$)
+## Cauchy(theta)
 
 Definition:
 $$
@@ -196,26 +196,21 @@ $$
 
 # PDF, CDF and Transformation
 
-## Transformation $Y=g(X)$ (continuous, 1–1)
+## Transformation Y=g(X) (continuous, 1–1)
 
 Examples: $Y=X^2$, $Y=1/X$, $Y=e^X$ (handle branches as needed).
 
 * If $Y = g(X)$ and $g$ is monotone:
-    $$
-    f_Y(y) = f_X(g^{-1}(y)) \left| \frac{d}{dy} g^{-1}(y) \right|, \quad F_Y(y) = P(Y \le y) = P(X \le g^{-1}(y)).
-    $$
+  $f_Y(y) = f_X(g^{-1}(y)) \left| \frac{d}{dy} g^{-1}(y) \right|, \quad F_Y(y) = P(Y \le y) = P(X \le g^{-1}(y)).$
+
 * For multivariate transformations $(X_1, X_2) \mapsto (Y_1, Y_2)$:
-    $$
-    f_{Y_1,Y_2}(y_1,y_2) = f_{X_1,X_2}(x_1,x_2) \left| \det \frac{\partial(x_1,x_2)}{\partial(y_1,y_2)} \right|.
-    $$
-    (Jacobian method applies to multivariate transformations).
+  $f_{Y_1,Y_2}(y_1,y_2) = f_{X_1,X_2}(x_1,x_2) \left| \det \frac{\partial(x_1,x_2)}{\partial(y_1,y_2)} \right|.$
+  (Jacobian method applies to multivariate transformations).
 
 ## Joint PDF and Marginals
 
-Normalization:
-$$
-\iint_{\mathbb{R}^2} f(x,y)\,dx\,dy=1
-$$
+Normalization: $\iint_{\mathbb{R}^2} f(x,y)\,dx\,dy=1$
+
 Marginals:
 $$
 f_X(x)=\int_{-\infty}^{\infty} f(x,y)\,dy,\qquad f_Y(y)=\int_{-\infty}^{\infty} f(x,y)\,dx
@@ -230,10 +225,9 @@ $$
 $$
 F(x,y)=F_X(x)F_Y(y)
 $$
-Conditional PDF under independence:
-$$
-f_{X|Y}(x|y)=f_X(x)
-$$
+
+Conditional PDF under independence: $f_{X|Y}(x|y)=f_X(x)$.
+
 If independent $\Rightarrow$ uncorrelated. Converse false (except in the Normal case).
 $$
 \rho(X,Y) = \frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}
@@ -246,7 +240,7 @@ $$
 f_{X|Y}(x|y)=\frac{f(x,y)}{f_Y(y)}
 $$
 If $X,Y$ are independent then $f_{X|Y}(x|y)=f_X(x)$.
-<!-- 
+
 > **Theorem: Poisson Thinning**
 > $$Y|X=x \sim Bin(x,p)\quad X\sim Poisson(\lambda) \Rightarrow Y\sim Poisson(\lambda p)$$
 
@@ -349,6 +343,7 @@ Definition: $M_X(t) = E[e^{tX}]$.
 3. **Independence:** If $X, Y$ indep., $M_{X+Y}(t) = M_X(t) M_Y(t)$.
 
 **Common MGFs:**
+
 | Distribution | Notation | MGF $M_X(t)$ | Defined for |
 | :--- | :--- | :--- | :--- |
 | **Binomial** | $Bin(n,p)$ | $(pe^t + 1-p)^n$ | $t \in \mathbb{R}$ |
@@ -396,4 +391,4 @@ As $n \to \infty$, the sum $S_n$ and mean $\overline{X}_n$ approach Normality.
 $$
 \frac{\sum X_i - n\mu}{\sigma\sqrt{n}} = \frac{\overline{X}_n - \mu}{\sigma/\sqrt{n}} \sim N(0,1)
 $$
-Continuity Correction (for Binomial): $P(X \le k) \approx P(Z \le \frac{k+0.5 - np}{\sqrt{npq}})$. -->
+Continuity Correction (for Binomial): $P(X \le k) \approx P(Z \le \frac{k+0.5 - np}{\sqrt{npq}})$.
