@@ -246,7 +246,7 @@ $$
 f_{X|Y}(x|y)=\frac{f(x,y)}{f_Y(y)}
 $$
 If $X,Y$ are independent then $f_{X|Y}(x|y)=f_X(x)$.
-
+<!-- 
 > **Theorem: Poisson Thinning**
 > $$Y|X=x \sim Bin(x,p)\quad X\sim Poisson(\lambda) \Rightarrow Y\sim Poisson(\lambda p)$$
 
@@ -396,4 +396,4 @@ As $n \to \infty$, the sum $S_n$ and mean $\overline{X}_n$ approach Normality.
 $$
 \frac{\sum X_i - n\mu}{\sigma\sqrt{n}} = \frac{\overline{X}_n - \mu}{\sigma/\sqrt{n}} \sim N(0,1)
 $$
-Continuity Correction (for Binomial): $P(X \le k) \approx P(Z \le \frac{k+0.5 - np}{\sqrt{npq}})$.
+Continuity Correction (for Binomial): $P(X \le k) \approx P(Z \le \frac{k+0.5 - np}{\sqrt{npq}})$. -->
