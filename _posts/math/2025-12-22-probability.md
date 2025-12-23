@@ -7,6 +7,7 @@ tags: [math, probability]
 excerpt: Really amazing!
 math: true
 ---
+
 # Continuous Distributions
 
 ## Basic Definitions
