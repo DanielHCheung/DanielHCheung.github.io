@@ -349,12 +349,14 @@ Definition: $M_X(t) = E[e^{tX}]$.
 3. **Independence:** If $X, Y$ indep., $M_{X+Y}(t) = M_X(t) M_Y(t)$.
 
 **Common MGFs:**
-* Binomial$(n,p)$: $(pe^t + 1-p)^n$
-* Poisson$(\lambda)$: $\exp\{\lambda(e^t - 1)\}$
-* Uniform $(a,b)$: $\frac{e^{tb}-e^{ta}}{t(b-a)}$ for $t \neq 0$
-* Exponential$(\lambda)$: $\frac{\lambda}{\lambda - t}$ for $t < \lambda$
-* Normal$(\mu, \sigma^2)$: $\exp\{\mu t + \frac{1}{2}\sigma^2 t^2\}$
-* Gamma$(\alpha, \lambda)$: $(\frac{\lambda}{\lambda-t})^\alpha$
+| Distribution | Notation | MGF $M_X(t)$ | Defined for |
+| :--- | :--- | :--- | :--- |
+| **Binomial** | $Bin(n,p)$ | $(pe^t + 1-p)^n$ | $t \in \mathbb{R}$ |
+| **Poisson** | $Pois(\lambda)$ | $\exp\{\lambda(e^t - 1)\}$ | $t \in \mathbb{R}$ |
+| **Uniform** | $Unif(a,b)$ | $\frac{e^{tb}-e^{ta}}{t(b-a)}$ | $t \neq 0$ |
+| **Exponential** | $Exp(\lambda)$ | $\frac{\lambda}{\lambda - t}$ | $t < \lambda$ |
+| **Normal** | $N(\mu, \sigma^2)$ | $\exp\{\mu t + \frac{1}{2}\sigma^2 t^2\}$ | $t \in \mathbb{R}$ |
+| **Gamma** | $\Gamma(\alpha, \lambda)$ | $\left(\frac{\lambda}{\lambda-t}\right)^\alpha$ | $t < \lambda$ |
 
 ---
 
