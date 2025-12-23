@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Some of my Probability Notes"
-date:  2025-12-22 21:00:00
+date:  2025-12-22 21:00:00 -0500
 categories: [math, probability]
 tags: [math, probability]
 excerpt: Really amazing!
