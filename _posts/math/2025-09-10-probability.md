@@ -5,7 +5,7 @@ date:  2025-09-10 21:00:00 -4
 categories: math probability
 tags: math probability
 excerpt: Really amazing proof!
-mathjax: true
+math: true
 ---
 
 The problems come from the book ```A First Course in Probability``` by Sheldon Ross. But I am really sorry since I forgot where the solution I saw, maybe another book, Wikipedia, or maybe some other online resources.
