@@ -5,6 +5,7 @@ date: 2025-12-22 21:00:00 -0500
 categories: [math, probability]
 tags: [math, probability]
 excerpt: Probability notes (continuous distributions).
+math: true
 ---
 
 # Continuous Distributions
