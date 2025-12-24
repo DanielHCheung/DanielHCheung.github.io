@@ -2,8 +2,8 @@
 layout: post
 title:  "How to Uniquely Decide a Tree From its Traversal"
 date:  2025-10-01 18:00:00 -4
-categories: DataStructure tree traversal
-tags: DataStructure tree traversal
+categories: [Data Structure, tree] 
+tags: [Data Structure, tree, traversal] 
 excerpt: Preorder, Inorder, and Postorder
 mathjax: true
 ---
