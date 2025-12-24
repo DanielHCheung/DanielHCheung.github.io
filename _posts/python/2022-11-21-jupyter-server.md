@@ -3,8 +3,8 @@ layout: post
 title:  "How to build online jupyter lab server"
 subtitle: "搭建jupyter lab (anaconda)"
 date:  2022-11-21 00:14:54
-categories: python jupyter lab anaconda
-tags: python jupyter lab anaconda
+categories: [python, jupyter lab]
+tags: [python, jupyter lab, anaconda]
 excerpt: 搭建远程的在线jupyter lab服务，便于远程写代码。之前不是弄了一个notebook嘛，发现了一个更好用的jupyter lab
 mathjax: true
 hidden: true
