@@ -45,6 +45,7 @@ Definition:
 $$
 f(x) = \frac{1}{b-a}, \quad a < x < b \quad \text{(0 otherwise)}
 $$
+
 CDF:
 $$
 F(x) = \begin{cases} 
@@ -53,6 +54,7 @@ F(x) = \begin{cases}
 1 & x \ge b
 \end{cases}
 $$
+
 Moments:
 $$
 E[X] = \frac{a+b}{2}, \qquad Var(X) = \frac{(b-a)^2}{12}
@@ -84,6 +86,7 @@ CDF:
 $$
 F(x) = 1 - e^{-\lambda x}, \quad x > 0 \quad (\text{Survival } S(x) = e^{-\lambda x})
 $$
+
 Moments:
 $$
 E[X] = \frac{1}{\lambda}, \qquad Var(X) = \frac{1}{\lambda^2}
