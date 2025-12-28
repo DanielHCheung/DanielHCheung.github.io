@@ -2,8 +2,8 @@
 layout: post
 title:  "How to build online jupyter notebook server 搭建jupyter notebook(anaconda)"
 date:  2022-09-24 00:14:54
-categories: python jupyter notebook anaconda
-tags: python jupyter notebook anaconda
+categories: [python ,jupyter notebook, anaconda]
+tags: [python ,jupyter notebook, anaconda]
 excerpt: 搭建远程的在线jupyter notebook服务，便于远程写代码。
 mathjax: true
 ---

@@ -2,8 +2,8 @@
 layout: post
 title:  "What is the difference between hundred digit and hundredth digit?"
 date:  2024-09-10 06:14:54
-categories: hundred hundredth digit math GRE
-tags: hundred hundredth math GRE
+categories: [ math, GRE]
+tags: [hundred, hundredth, math, GRE]
 excerpt: What is the difference between hundred digit and hundredth digit?
 mathjax: true
 ---

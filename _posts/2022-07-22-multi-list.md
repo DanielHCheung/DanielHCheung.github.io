@@ -2,8 +2,8 @@
 layout: post
 title:  "【WORD】 多级列表出现黑框怎么办"
 date:  2022-07-22 00:14:54
-categories: 办公 office word 多级列表
-tags: 办公 office word 多级列表
+categories: [办公, word]
+tags: [办公, office, word, 多级列表]
 excerpt: 排版文档，一不小心多级列表出现黑框。
 mathjax: true
 ---

@@ -2,8 +2,8 @@
 layout: post
 title:  "使用VS code打开Jupyter报错Error loading webview"
 date:  2024-02-04 06:14:54
-categories: python jupyter code
-tags: python jupyter code
+categories: [python, jupyter, code]
+tags: [python, jupyter, code]
 excerpt: 使用VS code打开Jupyter报错Error loading webview的解决方案。
 mathjax: true
 ---

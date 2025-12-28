@@ -2,8 +2,8 @@
 layout: post
 title:  "为anaconda配置4.x版本的R语言"
 date:  2022-06-10 00:14:54
-categories: R语言 anaconda
-tags: R语言 anaconda
+categories: [R, anaconda]
+tags: [R, anaconda]
 excerpt: 默认安装的版本好旧啊QaQ
 mathjax: true
 ---

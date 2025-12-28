@@ -2,8 +2,8 @@
 layout: post
 title:  "MySQL 8.0 忘记密码 或 重置密码"
 date:  2022-06-02 00:14:54
-categories: MySQL8.0 忘记密码 重置密码
-tags: MySQL8.0 忘记密码 重置密码
+categories: [MySQL8.0, password]
+tags: [MySQL8.0, password]
 excerpt: 折腾了好久，原来如此
 mathjax: true
 ---
