@@ -8,7 +8,7 @@ excerpt: What is the difference between hundred digit and hundredth digit?
 mathjax: true
 ---
 
-Give an example for this problem.
+Give an example for this problem. 
 
 > 16.w=26.956
 > 
