@@ -2,8 +2,8 @@
 layout: post
 title:  "【办公小技巧】 How to create PDF file and transfer with WORD  如何创建PDF  WORD与PDF互转"
 date:  2022-06-28 00:14:54
-categories: [Python, PDF]
-tags: [Python, 办公, PDF, 小技巧]
+categories: [python, PDF]
+tags: [python, 办公, PDF, 小技巧]
 excerpt: 办公软件教学：上交材料需要PDF文件？Word文档到其他电脑容易错乱，另存为PDF，打印很方便喵~
 mathjax: true
 ---
