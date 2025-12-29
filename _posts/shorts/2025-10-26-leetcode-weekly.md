@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "A Leetcode contest: "
+title:      "Leetcode contests: Biweekly 168 + Weekly 473"
 date:       2025-10-26 11:10:00   -0800
 author:     "Daniel"
 hidden:     false
