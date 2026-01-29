@@ -1,33 +1,71 @@
-User-Agent: *
-Allow: /
-Disallow: /wp-admin/
+# --- Group 1: Aggressive AI & Scrapers ---
+# ByteDance
+User-agent: Bytespider
+Disallow: /
 
+User-agent: ByteDance
+Disallow: /
+
+# Petal Search/Aspiegel
+User-agent: PetalBot
+Disallow: /
+User-agent: AspiegelBot
+Disallow: /
+
+# --- Group 2: Search Engines  ---
+# 百度
 User-agent: Baiduspider
 Disallow: /
 
+# 搜狗
 User-agent: Sogou Spider
+User-agent: Sogou web spider
 Disallow: /
 
+# 360搜索
 User-agent: 360Spider
+User-agent: HaoSouSpider
 Disallow: /
 
+# 神馬搜索 (阿里系移動端)
+User-agent: ShenmaSpider
 User-agent: YisouSpider
 Disallow: /
 
-User-agent: ShenmaSpider
-Disallow: /
-
+# 騰訊/微信系 (雖然現在多用API，但爬蟲仍需阻擋)
 User-agent: TencentTraveler
+User-agent: Sosospider
 Disallow: /
 
-User-agent: HaoSouSpider
+# 網易有道
+User-agent: YoudaoBot
 Disallow: /
 
 User-agent: CSDN
 Disallow: /
 
-User-agent: YoudaoBot
+# --- Group 3: Global AI Data Feeders ---
+# Common Crawl 
+User-agent: CCBot
+Disallow: /
+User-agent: CommonCrawl
 Disallow: /
 
+# --- Group 4: Other Nuisance/Scraper Bots  ---
 User-agent: BLEXBot
 Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+
+# --- Group 5: Default Rules (預設規則) ---
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php
