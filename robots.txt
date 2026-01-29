@@ -1,0 +1,33 @@
+User-Agent: *
+Allow: /
+Disallow: /wp-admin/
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Sogou Spider
+Disallow: /
+
+User-agent: 360Spider
+Disallow: /
+
+User-agent: YisouSpider
+Disallow: /
+
+User-agent: ShenmaSpider
+Disallow: /
+
+User-agent: TencentTraveler
+Disallow: /
+
+User-agent: HaoSouSpider
+Disallow: /
+
+User-agent: CSDN
+Disallow: /
+
+User-agent: YoudaoBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
