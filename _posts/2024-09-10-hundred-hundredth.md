@@ -10,7 +10,7 @@ mathjax: true
 
 Give an example for this problem. 
 
-> 16.w=26.956
+> w=26.956
 > 
 > Quantity A: The digit in the hundredths place of w
 > 
