@@ -31,7 +31,9 @@ Ld[i-1]+1 & : \ nums[i]>nums[i-1] \\
 1 & : \ otherwise
 \end{array} \right.
 $$
+
 we can also define:
+
 $$
 Ld[i] = \left\{ \begin{array}{cl}
 Li[i-1]+1 & : \ nums[i]<nums[i-1] \\
@@ -83,7 +85,8 @@ Why? consider a series 1,2,3, from $i-1$ to $i+1$. 2 should be removed. Hence, w
 - Space complexity: $\Theta(n) $ since we only create 1d array.
 
 # Code
-```python3 []
+
+```
 class Solution:
     def longestAlternating(self, nums: List[int]) -> int:
         n = len(nums)
