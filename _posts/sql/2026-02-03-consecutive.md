@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "stratascratch 2054: Consecutive Days"
-date:  2026-02-04 13:00:00 -5
+date:  2026-02-03 13:00:00 -5
 excerpt: "Simple DP"
 mathjax: true
 math: true
