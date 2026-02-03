@@ -4,11 +4,13 @@ icon: fas fa-archive
 order: 6
 ---
 
-> My collecrecommendstions of everything
-{: .prompt-tip }
+## writing a document
 
+### LaTeX
 
-### markdown
+[overleaf](https://www.overleaf.com)
+
+### Markdown
 
 writing beautiful charts/diagrams with [mermaid](https://mermaid.js.org/)
 > install ```Mermaid``` at vscode extensions, or directly use at Github Wiki
