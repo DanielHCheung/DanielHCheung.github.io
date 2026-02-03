@@ -10,7 +10,7 @@ categories: [SQL]
 tags: [SQL, optimization, stratascratch]
 ---
 
-[stratascratch 2054 | Consecutive Days](https://platform.stratascratch.com/coding/2054-consecutive-days)
+[stratascratch 2054 Consecutive Days](https://platform.stratascratch.com/coding/2054-consecutive-days)
 
 # Intuition & Approach
 
