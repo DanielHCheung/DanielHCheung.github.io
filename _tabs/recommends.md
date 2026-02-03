@@ -4,7 +4,7 @@ icon: fas fa-archive
 order: 6
 ---
 
-> My collections of everything
+> My collecrecommendstions of everything
 {: .prompt-tip }
 
 
