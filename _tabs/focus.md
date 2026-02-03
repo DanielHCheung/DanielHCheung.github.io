@@ -1,7 +1,6 @@
 ---
-layout: about
 icon: fas fa-archive
-order: 5
+order: 7
 ---
 
 Some focus music I use
