@@ -7,8 +7,6 @@ order: 6
 > My collections of everything
 {: .prompt-tip }
 
-<!-- > [!TIP]
-> My collections of everything -->
 
 ### markdown
 
