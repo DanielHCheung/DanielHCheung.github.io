@@ -10,4 +10,4 @@ order: 6
 
 ### markdown
 
-writing beautiful flowchards with [mermaid](https://mermaid.js.org/)
+writing beautiful charts/diagrams with [mermaid](https://mermaid.js.org/)
