@@ -10,6 +10,8 @@ order: 6
 
 [overleaf](https://www.overleaf.com)
 
+[online formula editor](https://latexeditor.lagrida.com)
+
 ### Markdown
 
 writing beautiful charts/diagrams with [mermaid](https://mermaid.js.org/)
