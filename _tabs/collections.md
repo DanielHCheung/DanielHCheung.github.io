@@ -12,6 +12,8 @@ order: 6
 
 [online formula editor](https://latexeditor.lagrida.com)
 
+[online formula editor](https://editor.codecogs.com)
+
 ### Markdown
 
 writing beautiful charts/diagrams with [mermaid](https://mermaid.js.org/)
