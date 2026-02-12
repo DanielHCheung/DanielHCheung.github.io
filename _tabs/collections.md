@@ -4,6 +4,16 @@ icon: fas fa-archive
 order: 6
 ---
 
+## C++
+
+[C++ STL](https://www.geeksforgeeks.org/cpp/the-c-standard-template-library-stl/)
+
+
+
+## tools
+
+[language difference check](https://hyperpolyglot.org)
+
 ## writing a document
 
 ### LaTeX
