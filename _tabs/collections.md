@@ -14,6 +14,8 @@ order: 6
 
 - or solve algorithms like problems on [leetcode](http://leetcode.com), [codewars](https://www.codewars.com) and [exercism](https://exercism.org/). I use code wars and exercism to practice OCaml.
 
+- data related: [stratascratch](https://platform.stratascratch.com)
+
 ## tools
 
 [language difference check](https://hyperpolyglot.org)
