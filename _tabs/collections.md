@@ -10,9 +10,9 @@ order: 6
 
 ## learning a new programming language
 
-- try to write some software! work on your project!
-- or solve algorithms like problems on [leetcode](http://leetcode.com), [codewars](https://www.codewars.com) and [exercism](https://exercism.org/). I use code wars and exercism to practice OCaml.
-- data related: [stratascratch](https://platform.stratascratch.com)
+* try to write some software! work on your project!
+* or solve algorithms like problems on [leetcode](http://leetcode.com), [codewars](https://www.codewars.com) and [exercism](https://exercism.org/). I use code wars and exercism to practice OCaml.
+* data related: [stratascratch](https://platform.stratascratch.com)
 
 ## tools
 
