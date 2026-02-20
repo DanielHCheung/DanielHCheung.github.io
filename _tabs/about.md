@@ -10,3 +10,15 @@ order: 4
 
 Welcome to [academic site](https://danieldata.com/ac)! 
 
+
+I am interested in data modeling & analysis. 
+
+### Programming
+
+I also practice algorithms again with my programming skills.
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/DanielHCheung?theme=light&font=Esteban&ext=heatmap)
+
+I took a course that using OCaml to understand programming language. I practice Ocaml at Codewars:
+
+![Codewars](https://www.codewars.com/users/DanielHCheung/badges/large?theme=light)
