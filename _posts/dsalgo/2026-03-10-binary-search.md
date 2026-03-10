@@ -176,7 +176,14 @@ def bisect_right(a, x):
 
 When you have very large index number, don't write ```(lo+hi)/2``` to avoid two number added overflow, (this is very important for C++) . You should write this instead: ```mid = lo + (hi-lo)/2```
 
+## Related leetcode problems
 
-# Reference
+https://leetcode.com/problems/binary-search/
+
+https://leetcode.com/problems/search-insert-position/
+
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+## Reference
 
 https://docs.python.org/3/library/bisect.html
