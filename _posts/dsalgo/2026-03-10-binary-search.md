@@ -11,8 +11,8 @@ tags: [Algorithm, binary search, python, c++, leetcode]
 ---
 
 
-# bisect FUNCTIONS
-```{python}
+## bisect FUNCTIONS
+```python
 import bisect
 testArray = [1,2,3,3,3,5,5,6,7,8]
 
@@ -32,7 +32,7 @@ The implement of both ```bisect_left``` and ```bisect_right``` are binary search
 
 Recall the binary search:
 
-```{python}
+```python
 lo = 0
 hi = len(a)
 while lo < hi:
@@ -52,7 +52,7 @@ There's another solution with ```lo<=hi``` will be mentioned later.
 
 Let's see how ```bisect_left``` wrote: 
 
-```{python}
+```python
 lo = 0
 hi = len(a)
 while lo < hi:
@@ -71,7 +71,7 @@ By doing so, it intentionally sacrifices the **early exit mechanism**. Even if t
 Consequently, while its worst-case time complexity remains strictly O(logn), it is more exhaustive and will always require the full logn iterations to converge, rather than being strictly "slower".
 
 
-```{python}
+```python
 lo = 0
 hi = len(a)
 while lo < hi:
@@ -91,7 +91,7 @@ The left index indicates, when ```lo>=hi``` as we exit the loop, and we already 
 
 ## Other idea of binary search.
 ### different search area
-```{python}
+```python
 lo = 0
 hi = len(a)-1
 while lo <= hi:
@@ -109,7 +109,7 @@ Now we are searching $[lo, hi]$ we need to write ```hi = mid - 1``` and ```lo <=
 
 In this logics, we can rewrite both ```bisect_left``` and ```bisect_right```.
 
-```{python}
+```python
 def bisect_left(a, x):
     lo = 0
     hi = len(a)-1
@@ -123,7 +123,7 @@ def bisect_left(a, x):
 ```
 
 
-```{python}
+```python
 def bisect_right(a, x):
     lo = 0
     hi = len(a)-1
@@ -138,7 +138,7 @@ def bisect_right(a, x):
 ```
 
 
-```{c++}
+```cpp
     int bisect_left(vector<int>& nums, int target) {
         int lf = 0, rt = nums.size()-1, m = lf + (rt-lf)/2;
         while (lf <= rt) {
@@ -155,7 +155,7 @@ def bisect_right(a, x):
 ```
 
 
-```{c++}
+```cpp
     int bisect_right(vector<int>& nums, int target) {
         int lf = 0, rt = nums.size()-1, m = lf + (rt-lf)/2;
         while (lf <= rt) {
