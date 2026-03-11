@@ -20,7 +20,17 @@ order: 6
 
 ## writing a document
 
+### Book/Blog
+
+RMarkdown and its deviates: (TinyTex based, very old) [BookDown](https://bookdown.org) and [BlogDown](https://github.com/rstudio/blogdown)
+
+[Quarto](https://quarto.org): support both r and python. Example: my [R note of statistics learning and computing](https://r.danieldata.com)
+> Remember to update to latest version of LaTeX for Quarto!
+{: .prompt-tip }
+
 ### LaTeX
+
+[TexLive](https://tug.org/texlive/)
 
 [overleaf](https://www.overleaf.com)
 
