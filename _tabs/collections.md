@@ -28,6 +28,8 @@ RMarkdown and its deviates: (TinyTex based, very old) [BookDown](https://bookdow
 > Remember to update to latest version of LaTeX for Quarto!
 {: .prompt-tip }
 
+[Sphinx](https://www.sphinx-doc.org/en/master/) 
+
 ### LaTeX
 
 [TexLive](https://tug.org/texlive/)
